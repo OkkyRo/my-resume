@@ -13,7 +13,6 @@ export default function Home() {
         {/* Header */}
         <header className="border-b border-gray-200 pb-8 dark:border-gray-800">
           <div className="flex flex-col gap-6 sm:flex-row sm:items-center">
-            {/* Profile Photo */}
             <div className="shrink-0">
               <img
                 src="/img/profile/okky-robbyanto.jpg"
@@ -22,7 +21,6 @@ export default function Home() {
               />
             </div>
 
-            {/* Information */}
             <div>
               <h1 className="text-4xl font-bold tracking-tight">
                 Okky Robbyanto
