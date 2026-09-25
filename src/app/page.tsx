@@ -12,36 +12,50 @@ export default function Home() {
 
         {/* Header */}
         <header className="border-b border-gray-200 pb-8 dark:border-gray-800">
-          <h1 className="text-4xl font-bold tracking-tight">
-            Okky Robbyanto
-          </h1>
+          <div className="flex flex-col gap-6 sm:flex-row sm:items-center">
+            {/* Profile Photo */}
+            <div className="shrink-0">
+              <img
+                src="/img/profile/okky-robbyanto.jpg"
+                alt="Okky Robbyanto"
+                className="h-28 w-28 rounded-2xl object-cover shadow-md ring-1 ring-gray-200 dark:ring-gray-700"
+              />
+            </div>
 
-          <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">
-            Web Developer
-          </p>
+            {/* Information */}
+            <div>
+              <h1 className="text-4xl font-bold tracking-tight">
+                Okky Robbyanto
+              </h1>
 
-          <div className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm text-gray-600 dark:text-gray-400">
-            <span>0kky0kky2002@gmail.com</span>
-            <span>•</span>
-            <span>Surabaya, Indonesia</span>
+              <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">
+                Web Developer
+              </p>
 
-            <a
-              href="https://github.com/OkkyRo"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline transition hover:text-gray-900 dark:hover:text-white"
-            >
-              GitHub
-            </a>
+              <div className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm text-gray-600 dark:text-gray-400">
+                <span>0kky0kky2002@gmail.com</span>
+                <span>•</span>
+                <span>Surabaya, Indonesia</span>
 
-            <a
-              href="https://linkedin.com/in/okky-robbyanto"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline transition hover:text-gray-900 dark:hover:text-white"
-            >
-              LinkedIn
-            </a>
+                <a
+                  href="https://github.com/OkkyRo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline transition hover:text-gray-900 dark:hover:text-white"
+                >
+                  GitHub
+                </a>
+
+                <a
+                  href="https://linkedin.com/in/okky-robbyanto"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline transition hover:text-gray-900 dark:hover:text-white"
+                >
+                  LinkedIn
+                </a>
+              </div>
+            </div>
           </div>
         </header>
 
