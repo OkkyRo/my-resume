@@ -45,7 +45,7 @@ export default function Home() {
                 </a>
 
                 <a
-                  href="https://linkedin.com/in/okky-robbyanto"
+                  href="https://www.linkedin.com/in/okky-robbyanto-98846a275/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline transition hover:text-gray-900 dark:hover:text-white"
